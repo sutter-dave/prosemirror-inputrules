@@ -1,5 +1,5 @@
 import {InputRule} from "./inputrules.js"
-import {findWrapping, canJoin} from "/prosemirror/dist/prosemirror-transform.es.js"
+import {findWrapping, canJoin} from "/prosemirror/devimports/prosemirror-transform.es.js"
 
 // :: (RegExp, NodeType, ?union<Object, ([string]) → ?Object>, ?([string], Node) → bool) → InputRule
 // Build an input rule for automatically wrapping a textblock when a
